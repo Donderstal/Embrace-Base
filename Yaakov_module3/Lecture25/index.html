@@ -12,13 +12,52 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div id="navcontainer" class="container-fluid">
+          <a href="index.html" class="pull-left"></a>
+            <a class="navbar-brand" href="#"><h1>Food, LLC</h1><a class="ondertitel">A Donderstal brand</a></a>
+          <div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="visible-xs">
+                <div id="collapsable-nav" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                  <ul id="nav-list" class="nav navbar-nav navbar-right"> 
+                        <li class="well">
+                          <span align=center>Beef</span>
+                        </li>
+                        <li class="well">
+                          <span align=center>Sushi</span>
+                        </li>
+                        <li class="well">
+                          <span align=center>Chicken</span>
+                        </li>
+                  </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-  <h1>Hello Coursera!</h1>
+
+<h1 class="text-center">Notre menu</h1>
+  <h2 class="text-center">Pour les madammes et messieurs tres culturelle et culinaire!</h2>
+
+  <div class="container">
+    <div id="BoxBeef" class="col-xs-12 col-sm-12 col-md-12"><h3>Beef</h3>
+      <p>Your favorite cow, sliced 'n' diced! It used to be a happy animal, full of life - now it's dead and roasted to the core. Enjoy and think of the cow's family, which is bitterly mourning her loss.</p>
+    <div class="price"> E 23,99 </div></div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>

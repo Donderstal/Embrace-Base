@@ -1,0 +1,108 @@
+/* Algemene opmaak */
+
+h2 {
+    text-align: center
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-image:url(http://www.maat.sofiatopia.org/iwenis3a.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+
+/*  Opmaak van afbeelding Akhenaten */
+
+#songOfTheBull {
+    color: firebrick;
+    text-shadow: 1px 1px black;
+    font-size: 2em;
+    text-align: center;
+    background-color: sandybrown;
+    border-style: double;
+    border-width: 3px;
+    border-color: firebrick;
+}
+
+#thisKing {
+    background-color: black;
+}
+
+/* Opmaak goden containers */
+
+#godbox {
+    height: 200px;
+    border-style: groove;
+    border-width: 1px;
+    background-color: white;
+    border-color: sandybrown;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+/* Opmaak knoppen containers */
+
+#buttonBox {
+    border-style: groove;
+    border-width: 1px;
+    background-color: white;
+    border-color: sandybrown;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+#buttonBox:hover {
+    background: lightsalmon;
+}
+
+/* Opmaak vragen containers */
+
+#questionBox {
+    text-align: center;
+    height: 100px;
+    position: relative;
+    border-style: groove;
+    border-width: 1px;
+    background-color: white;
+    border: solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+/* Opmaak antwoorden containers */
+
+#answerBox {
+    text-align: center;
+    border-style: groove;
+    border-width: 1px;
+    background-color: white;
+    border-color: sandybrown;
+    border-radius: 25px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: solid black;
+}
+
+/* Opmaak "whats up?" knop */
+
+button {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: salmon;
+    border: none;
+  }
+
+button:hover {
+    background: lightsalmon;
+  }
