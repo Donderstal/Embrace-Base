@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.main-container {
+    margin: 10px;
+}
+
 #header-nav {
     margin: auto;
     box-sizing: border-box;
@@ -39,21 +43,7 @@ h3 {
 #BoxBeef {
     background: burlywood;
     height: 1000px;
-    border: 5px;
+    border: solid 3px;
     border-color: black;
     box-sizing: border-box;
-}
-
-.col-xs-12 {
-    border: 5px;
-    border-color: black;
-}
-
-.col-sm-12 {
-    border: 5px;
-    border-color: black;
-}
-
-.col-md-12 {
-    
 }
