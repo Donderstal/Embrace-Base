@@ -14,9 +14,6 @@
     width: 100%;
 }
 
-.main-container {
-    margin: 10px;
-}
 
 #header-nav {
     margin: auto;
@@ -46,4 +43,6 @@ h3 {
     border: solid 3px;
     border-color: black;
     box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
 }
