@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/17097584_1484002841619101_8492589288112244134_o.jpg?_nc_cat=0&oh=81b11fa92ea467ea3a386acded5e751e&oe=5B6F8BA3");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#edKroket {
+    margin: auto;
+    width: 800px;
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #73AD21; 
+}
+
+#plaatjeKroket {
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+}
+
+#kop {
+    text-align: center;
+}
