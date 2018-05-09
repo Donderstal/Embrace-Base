@@ -12,6 +12,10 @@ body{
     background-size:cover;
  }
 
+#deityDevotion {
+    position: relative;
+}
+
 /*  Opmaak van afbeelding Akhenaten */
 
 #songOfTheBull {
@@ -46,13 +50,30 @@ body{
 #buttonBox {
     border-style: groove;
     border-width: 1px;
+    margin:auto;
+    background-color: white;
+    border-color: sandybrown;
+    border-radius: 25px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#buttonBox:hover {
+    background: lightsalmon;
+}
+
+.quizButtonBox {
+    float: left;
+    border-style: groove;
+    margin: 10px;
+    border-width: 1px;
     background-color: white;
     border-color: sandybrown;
     border-radius: 25px;
     box-sizing: border-box;
 }
 
-#buttonBox:hover {
+#quizButtonBox:hover {
     background: lightsalmon;
 }
 
@@ -60,7 +81,10 @@ body{
 
 #questionBox {
     text-align: center;
-    height: 100px;
+    font-size: 1.2em;
+    margin: 50px;
+    height: 268px;
+    padding: 30px;
     position: relative;
     border-style: groove;
     border-width: 1px;
@@ -70,18 +94,40 @@ body{
     box-sizing: border-box;
 }
 
+#storyBox {
+    width: 66%;
+    height: auto;
+    margin: auto;
+    padding: 5%;
+}
+
 /* Opmaak antwoorden containers */
+
+.answerDiv {
+    margin-left: 2%;
+    margin-bottom: 50px;
+    padding: 1%;
+    float: left;
+    width: 45%;
+    height: 20%;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
 
 #answerBox {
     text-align: center;
+    font-size: 1.5em;
     border-style: groove;
     border-width: 1px;
     background-color: white;
     border-color: sandybrown;
     border-radius: 25px;
     box-sizing: border-box;
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
+    padding: 30px;
     overflow: auto;
     margin: auto;
     position: absolute;
