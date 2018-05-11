@@ -4,24 +4,25 @@
     box-sizing: border-box;
 }
 
-.ondertitel {
-    font-size: 0.75em;
-    float: center;
+.navbar-header, .container-fluid {
+    background-color: purple !important;
 }
-
-.well {
-    background: wheat;
-    width: 100%;
-}
-
 
 #header-nav {
     margin: auto;
     box-sizing: border-box;
 }
 
-h3 {
-    text-align: right;
+#name, #price {
+    color: black;
+}
+
+a {
+    color: blueviolet !important;
+}
+
+h1 {
+    text-align: center;
 }
 
 #nav-list {
@@ -45,4 +46,27 @@ h3 {
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
+}
+
+.navbar-right {
+    display: none; 
+}
+
+.container {
+    background-color: blue;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    height: 1000px;
+}
+
+.nav>li {
+    text-align: center;
+    position: static;
+}
+
+@media (min-width: 768px){
+    .container {
+        width: 98%;
+        margin-left: 1%;;
+    }
 }
