@@ -37,7 +37,7 @@ function generateNavBar() {
                 let navBarRight = document.getElementById('nav navbar-nav navbar-right')
                     elementFactory('li', 'dropdown', "dropdownmain", navBarRight, 1, "")
                     let dropdownMain = document.getElementById('dropdownmain')
-                        elementFactory('a', 'dropdown-toggle', "dropdown-toggle", dropdownMain, 1, "Menu<span class='caret'></span>")
+                        elementFactory('a', 'dropdown-toggle visible-xs', "dropdown-toggle", dropdownMain, 1, "Menu<span class='caret'></span>")
                         let dropdownToggle = document.getElementById('dropdown-toggle')
                         $(dropdownToggle).attr('role', 'button')
                         $(dropdownToggle).attr('data-toggle', 'dropdown')
@@ -50,5 +50,6 @@ function generateNavBar() {
                             elementFactory('li', 'dropdown-button', "", dropdownMenu, 1, "<a href='#'>Chicken</a>")
                             elementFactory('li', 'dropdown-button', "", dropdownMenu, 1, "<a href='#'>Sushi</a>")
 }
-
 generateNavBar()
+
+/* function generateBody() */
